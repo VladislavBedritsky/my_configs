@@ -1,0 +1,8 @@
+
+
+
+fetch('/departments', {method: 'POST', headers: {'Content-Type': 'application/json'}, body: JSON.stringify({ name: 'qq222' })}).then(result=>console.log(result))
+
+fetch('/departments/77', {method: 'PUT', headers: {'Content-Type': 'application/json'}, body: JSON.stringify({ name: 'qq222' })}).then(result=>console.log(result))
+
+fetch('/departments/77', {method: 'DELETE', headers: {'Content-Type': 'application/json'}, body: JSON.stringify({ name: 'qq222' })}).then(result=>console.log(result))
